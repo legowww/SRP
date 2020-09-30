@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include <random>
+#include <time.h>
 
 enum SRP
 {
@@ -12,4 +13,5 @@ enum SRP
 
 void inputUser(int& user);
 void inputAi(int& ai);
+void inputAi2(int& ai);
 void getWin(const int& winner);
